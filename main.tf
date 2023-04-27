@@ -1,5 +1,5 @@
 module "web_mail" {
-    source = "../start-up-module"
+    source = "git@github.com:sai95573/terraform-project-1.git"
     my_region = var.my_aws_region
     domain_name = var.my_domain_name
     web_sub_domain_name = var.my_web_sub_domain_name
