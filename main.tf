@@ -1,4 +1,4 @@
-module "web_mail" {
+module "web_mail_db" {
     source = "git@github.com:sai95573/terraform-project-1.git"
     my_region = var.my_aws_region
     domain_name = var.my_domain_name

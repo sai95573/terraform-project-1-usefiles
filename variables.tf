@@ -27,6 +27,11 @@ variable "my_mail_sub_domain_name" {
 }
 
 
+variable "my_db_sub_domain_name" {
+    type = string
+}
+
+
 variable "my_local_aws_private_key_path" {
     type = string
   
